@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Read(//c/Users/HP/Downloads/**)",
+      "Read(//c/Users/HP/Pictures/**)"
+    ]
+  }
+}

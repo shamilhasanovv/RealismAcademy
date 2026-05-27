@@ -241,7 +241,7 @@ if (blogWrap) {
 const backToTop = document.getElementById('backToTop');
 if (backToTop) {
   const toggleVisibility = () => {
-    if (window.scrollY > 400) {
+    if (window.scrollY > 250) {
       backToTop.classList.add('visible');
     } else {
       backToTop.classList.remove('visible');
