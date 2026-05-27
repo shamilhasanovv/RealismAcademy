@@ -479,8 +479,8 @@ html {
 .btn-secondary {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
-    padding: 14px 28px;
+    gap: 5px;
+    padding: 7px 14px;
     border-radius: var(--radius-full);
     font-size: 14px;
     font-weight: 600;
@@ -2274,6 +2274,12 @@ a.contact-value:hover {
     gap: 16px;
     flex-wrap: wrap;
     }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 14px 28px;
+    }
+
     .hero-visual {
     bottom: 0px;
     position: relative;
