@@ -1,0 +1,13 @@
+1. Ana sinif yaradın. Adı Model olsun. Bu model sadəcə miras verə bilər və miras verdiyi alt siniflər onun crud tələblərini yerinə yetirməlidir.
+	1.1 Ana sinif, bala sinifdən cədvəl adı tələb etməlidir
+	1.2 Bala sinif cədvəl adını sadəcə ana sinif ilə bölüşməlidir
+	1.3 Bala sinif, ana sinfə ifadə etdiyi cədvəldə hansı sütunların olduğunu paylaşmalıdır.
+	1.4 Bala sinif, ana sinfin create metodunu işlədən zaman ana sinif yoxlamalıdır ki, paylaşılan sütunlar ilə create ilə verdiyiniz sütunlar uyğundur ya yox
+	1.5 Ana sinif create, update, delete və sadə select metodunu təşkil etməlidir
+
+2. Sadə formada Router sinfi yazın. Ən sonda isə onu istifadə etmək mümkün olsun.
+	2.1 Get, post, put, patch, delete http metodlarına görə işləyə bilməlidir
+	2.2 Təyin olunan callback funksiya və controller sinfi ola bilər
+	2.3 ROuter sinfi müəyyən edə bilməlidir ki, rota mövcud deyilsə 404 statusunu anlasın
+	2.4 Router sinfi meəyyən edə bilməlidir ki, link olsa da medot doğru deyilsə 403 statusu anlasın (kəşfə çıxın)
+	2.5 Router sinfi base_url ala bilər. məsələn hər linkin qabağına /api/v1 yazmaq olsun
