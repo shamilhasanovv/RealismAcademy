@@ -410,17 +410,7 @@ html {
 }
 
 .rating-card {
-    background: rgba(255, 255, 255, 0.65);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border: 1px solid rgba(199, 196, 215, 0.4);
-    box-shadow: var(--shadow-card);
-    border-radius: var(--radius-lg);
-    padding: 14px 16px;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    flex-wrap: wrap;
+    display: none;
 }
 
 .rating-score {
@@ -2270,6 +2260,19 @@ a.contact-value:hover {
 @media screen and (min-width: 1024px) {
     .hero-title {
         font-size: 3.6rem;
+    }
+    .rating-card {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(199, 196, 215, 0.4);
+    box-shadow: var(--shadow-card);
+    border-radius: var(--radius-lg);
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
     }
     .hero-visual {
     bottom: 0px;
