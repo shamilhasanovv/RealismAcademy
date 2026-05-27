@@ -186,6 +186,11 @@ html {
     display: inline-flex;
     align-items: center;
     line-height: 0;
+    b{
+        margin-left: 15px;
+        font-size: 16px;
+        color: #102b1c;
+    }
 }
 
 .brand-logo {
@@ -2255,6 +2260,11 @@ a.contact-value:hover {
 
 /* ===== Desktop ===== */
 @media screen and (min-width: 1024px) {
+    .brand {
+         b{
+             font-size: 20px;
+         }
+    }
     .hero-title {
         font-size: 3.6rem;
     }
